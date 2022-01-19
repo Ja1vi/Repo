@@ -1,0 +1,1703 @@
+body {
+	background-color: #a31a1a;
+}
+#degrade {
+	background: -webkit-linear-gradient(150deg, #660f0f, #bf4e28);
+}
+header, section, footer {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	height: 60px;
+	background-color: #fff5e6;
+	position: sticky;
+	top: 0px;
+	margin-bottom: 0;
+	display: block;
+	z-index: 1000;
+}
+ul {
+	margin-top: 0;
+	margin-right: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul .horizontal{
+	display: inline-block;
+}
+.arriba {
+	display: inline-block;
+	line-height: 55px;  
+	color: #000000;
+	font-family: Cambria, Arial, Calibri;
+	font-size: 16pt;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-color: #ed9a09;
+	height: 56px;
+	width: 125px;
+	-webkit-border-radius: 7px;
+	-webkit-box-shadow: 3px 3px 8px #877f74;
+}	
+#logo_small {
+	width: 250px;
+	height: 60px;
+	background-image: url(Imágenes/logohoriz.jpg);
+	background-size: 100% 100%;
+	float: left;
+	border-right-color: #752c1a;
+	border-right-width: 3px;
+	border-right-style: solid; 
+}
+#botonera_fija {
+	width: 600px;
+	height: 60px;
+	background-color: #fff5e6;
+	float: right;
+
+}
+#home {
+	height: 630px;
+	margin-top: 0;
+	background-color: #eda15f;
+	background-image: url(Imágenes/background.jpg);
+	background-size: 100% 100%;
+}
+#banner {
+	height: 640px;
+	margin: 0;
+	align-content: center;
+	background-color: #000000;
+}
+#banner_txt {
+	height: 350px;
+	width: 760px;
+	position: relative;
+	top: 160px;
+	left: 100px;
+	background-color: transparent;
+	text-align: center;
+	align-content: center;
+	z-index: 0;
+}
+@font-face {
+	font-family: 'Merriweather-Regular';
+	src: url ('Merriweather-Regular') format('truetype');	
+}
+#bienvenida {
+	font-family: 'Merriweather-Regular';
+	font-size: 26pt;
+	color: #ffffff;
+	font-weight: normal;
+	position: relative;
+	text-align: center;
+	z-index: 1;	
+	height: 50px;
+	width: 750px;
+	background-color: hsla(252, 14%, 39%, 35%);
+	line-height: 50px;
+	-webkit-border-radius: 10px;
+}
+#logo {
+	position: relative;
+	height: 170px;
+	width: 175px;
+	left: 292px;
+	border-width: 8px;
+	border-style: double;
+	-webkit-border-radius: 12px;
+	border-color: #605a78;
+	background-image: url(Imágenes/Lorem_logo1.png);
+	background-size: 100% 100%;
+	z-index: 1;
+}
+#scroll {
+	height: 170px;
+	width: 175px;
+	position: relative;
+	top: 6em;
+	left: 405px;
+	background-image: url(Imágenes/scrolldown.gif);
+	background-size: cover;
+	z-index: 2;
+}
+#we {
+	height: 640px;
+	background-image: url(Imágenes/background2.jpg);
+	background-size: 100% 100%;
+}
+#contenedor2 {
+	height: 600px;
+	width: 900px;
+	background-color: hsla(0, 0%, 100%, 55%);
+	position: relative;
+	top: 20px;
+	left: 30px;
+	box-sizing: border-box;
+}
+#estudio {
+	height: 70px;
+	width: 275px; 
+	position: relative;
+	top: 25px;
+	left: 312px;
+	background-color: transparent;
+	border-bottom-color: #ffc800;
+	border-bottom-style: solid;
+	border-bottom-width: 4px;
+}
+.titulo_estudio {
+	margin: 0;
+	color: #000000;
+	font-family: felix titling, book antiqua;
+	font-weight: bold;
+	text-align: center;
+	font-size: 35pt;
+	line-height: 90px;
+}
+#contenedor2 article {
+	display: inline-block;
+	border-style: double;
+	border-width: 5px;
+	border-color: hsla(252, 14%, 39%);
+	box-sizing: border-box;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+.name_cv {
+	color: #000000;
+	font-family: book antiqua;
+	font-size: 18pt;
+	font-weight: bold;
+	text-align: center;
+}
+.curriculum {
+	font-family: 'Merriweather-Regular';
+	font-size: 14pt;
+	padding: 0 15px 0 10px;
+	list-style-type: none;
+	text-align: justify; 
+}
+@font-face {
+	font-family: 'Merriweather-Regular';
+	src: url ('Merriweather-Regular.ttf') format('truetype');	
+}
+.CV1 {
+	height: 400px;
+	width: 270px;
+	-webkit-border-radius: 10px;
+	position: relative;
+	top: 63px;
+	left: 30px;
+}
+.CV2 {
+	height: 400px;
+	width: 270px;
+	-webkit-border-radius: 10px;
+	position: relative;
+	top: 63px;
+	left: 40px;		
+}
+.CV3 {
+	height: 400px;
+	width: 270px;
+	-webkit-border-radius: 10px;
+	position: relative;
+	top: 63px;
+	left: 50px;
+}
+#services {
+	height: 660px;
+	background-color: hsla(0, 0%, 100%, 55%);
+}
+#container3 {
+	height: 660px;
+	width: 960px;
+	box-sizing: border-box;
+}
+#container3 ul {
+	display: block;
+	list-style: none;
+}
+.servicios {
+	position: relative;
+	top: 30px;
+	z-index: 0;
+}
+@font-face {
+	font-family: 'Oswald';
+	src: url('Oswald-VariableFont_wght.ttf') format('truetype');
+}
+.servicios a {
+	z-index: 1;
+	height: 200px;
+	width: 960px;
+	position: relative;
+	display: block;
+	font-family: 'Oswald';
+	font-size: 26pt;
+	color: #000000;
+	text-shadow:3px 0px 13px #ffffff;
+	text-decoration: none;
+	text-align: center;
+	line-height: 200px;
+}
+.servicios a:hover {
+	-webkit-animation: zooming 4.6574s 1 ease-out;
+}
+@-webkit-keyframes zooming {
+   from {
+	  -webkit-transform: rotate(0deg) scale(1) skew(0) translate(0px);
+   }
+   
+   to {
+	   -webkit-transform: rotate(0deg) scale(1.100) skew(0) translate(0px);
+   }
+}
+#laboral {
+	background-image: url(Imágenes/laboral_b.jpg);
+	background-size: cover;
+	z-index: 4;
+}
+#AT {
+	background-image:  url(Imágenes/transito_b.jpg);
+	background-size: cover;
+	z-index: 3;
+} 
+#AP {
+	background-image:  url(Imágenes/advice1.jpg);
+	background-size: cover;
+	z-index: 2;
+}
+#contact {
+	height: 350px;
+	background-color: #000000;
+	color: #ffffff;
+	font-family: 'Merriweather-Regular';
+}
+#contact a {
+	text-decoration: none;
+	color: #ff8400;
+}
+#contact a:hover {
+	color: #ffc800;
+}
+#contact a:active {
+	color: #ffc800;
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 40px;
+	vertical-align: top;
+}
+#contact_blank h2{
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}	
+#tarjeta_ct {
+	width: 800px;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+#tarjeta_ct div, article {
+	display: inline-block;
+}
+#foto_ct {
+	width: 250px;
+}
+#foto_ct img {
+	background-size: cover;
+}
+#datos_ct {
+	width: 300px;
+	position: relative;
+	top: 50px;
+	left: 20px;
+	vertical-align: top;
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 100px;
+	vertical-align: top;
+}
+#contact_blank h2{
+	word-spacing: 4px;
+	letter-spacing: 3px;
+}
+#maps {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top: 5px;
+	left: 116px;
+}
+#maps a {
+	display: block;
+	text-decoration: none;
+	height: 100%;
+	text-align: center;
+}
+#direct {
+	background-color: #000000;
+	height: 370px;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#email {
+	width: 400px;
+	height: 300px;
+	background-color: #000000;
+	position: relative;
+	left: 25%;
+	box-sizing: border-box;
+	padding: 15px;
+}
+#mail_sent {
+	color: #ffffff;
+	font-family: Arial, Tahoma;
+}
+/*FIN PC*/
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+header, section, footer {
+	width: 580px;
+}
+ul .horizontal{
+	position: relative;
+	left: 20px;
+}
+.arriba {
+	width: 130px;
+}	
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: 580px;
+}
+#home {
+	height: auto;
+	background-image: url(Imágenes/background_b.jpg);
+}	
+#banner_txt {
+	height: 350px;
+	width: 500px;
+	top: 80px;
+	left: 40px;
+}
+#bienvenida {
+	font-size: 19pt;
+	left: 10px;
+	width: 480px;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 155px;
+}
+#scroll {
+	width: 170px;
+	top: 5px;
+	left: 205px;
+}
+#we {
+	background-image: url(Imágenes/justice.jpg);
+	background-size: cover;
+	height: 790px;	
+}
+#contenedor2 {
+	height: 755px;
+	width: 560px;
+	left: 10px;
+}
+#estudio {
+	width: 250px;
+	height: 65px; 
+	top: 25px;
+	left: 155px;
+}
+.titulo_estudio {
+	font-size: 30pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 3px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+.curriculum {
+	font-size: 13pt;
+	padding: 0 12px 0 12px;
+}
+.CV1 {
+	height: 200px;
+	width: 540px;
+	left: 10px;
+}
+.CV2 {
+	height: 200px;
+	width: 540px;
+	top: 75px;
+	left: 10px;		
+}
+.CV3 {
+	height: 180px;
+	width: 540px;
+	top: 87px;
+	left: 10px;
+}
+#services {
+	height: 660px;
+	width: 580px;
+}
+#container3 {
+	height: 650px;
+	width: 560px;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+.servicios {
+	left: 5px;
+}
+.servicios a {
+	width: 550px;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#contact {
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	height: auto;
+	padding: 20px 0 0 12%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 400px;
+	left: 5px;
+	vertical-align: none;
+}
+#maps {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+}
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#email {
+	left: 15%;
+}	
+}/*fin T A B L E T */
+@media all and (min-width: 550px) and (max-width: 599px) {
+	header, section, footer {
+	width: auto;
+}
+ul .horizontal{
+	position: relative;
+	left: 2%;
+}
+.arriba {
+	width: 110px;
+	font-size: 14pt;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+	box-sizing: content-box;
+	padding: 0 5px 0 5px;
+}	
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: auto;
+	background-image: url(Imágenes/background_b.jpg);
+}	
+#banner_txt {
+	height: 350px;
+	width: auto;
+	top: 60px;
+	left: 0px;
+	box-sizing: content-box;
+	padding: 0 10px 0 10px;
+}
+#bienvenida {
+	font-size: 19pt;
+	left: 0;
+	width: auto;
+	height: auto;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 34%;
+}
+#scroll {
+	width: 170px;
+	top: 5px;
+	left: 37%;
+}
+#we {
+	background-image: url(Imágenes/justice.jpg);
+	background-size: cover;
+	height: 780px;	
+}
+#contenedor2 {
+	height: 750px;
+	width: auto;
+	left: 0px;
+	box-sizing: content-box;
+	padding: 0 5px 0 5px;
+}
+#estudio {
+	width: 250px;
+	height: 65px; 
+	top: 25px;
+	left: 28%;
+}
+.titulo_estudio {
+	font-size: 30pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 3px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+.curriculum {
+	font-size: 12.5pt;
+	padding: 0 10px 0 10px;
+}
+.CV1 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+}
+.CV2 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+	top: 70px;	
+}
+.CV3 {
+	height: 185px;
+	width: auto;
+	left: 0px;
+	top: 77px;
+}
+#services {
+	height: 660px;
+	width: auto;
+	background-color: hsla(0, 0%, 100%, 55%);
+}
+#container3 {
+	height: 650px;
+	width: auto;
+	position: relative;
+	left: 0px;
+}
+.servicios a {
+	width: auto;
+}
+#AT {
+	background-image:  url(Imágenes/transito.jpg);
+	background-size: cover;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 12%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 65px;
+}
+#maps {
+	width: 400px;
+	height: 300px;
+	position: relative;
+	top: 5px;
+	left: 1%;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#email {
+	left: 10%;
+}
+}/*fin 1<Tablet*/
+@media all and (min-width: 476px) and (max-width: 550px) {
+	header, section, footer {
+	width: auto;
+}
+ul .horizontal{
+	position: relative;
+	left: 2%;
+}
+.arriba {
+	width: 100px;
+	font-size: 14pt;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+}	
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: auto;
+	background-image: url(Imágenes/background_b.jpg);
+}	
+#banner_txt {
+	height: 350px;
+	width: auto;
+	top: 60px;
+	left: 0px;
+	box-sizing: content-box;
+	padding: 0 10px 0 10px;
+}
+#bienvenida {
+	font-size: 19pt;
+	left: 0;
+	width: auto;
+	height: auto;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 31%;
+}
+#scroll {
+	width: 170px;
+	top: 5px;
+	left: 35%;
+}
+#we {
+	background-image: url(Imágenes/justice.jpg);
+	background-size: cover;
+	height: 760px;	
+}
+#contenedor2 {
+	height: 740px;
+	width: auto;
+	left: 0px;
+	box-sizing: content-box;
+	padding: 0 5px 0 5px;
+}
+#estudio {
+	width: 250px;
+	height: 65px; 
+	top: 25px;
+	left: 24%;
+}
+.titulo_estudio {
+	font-size: 30pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 3px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+.curriculum {
+	font-size: 12.5pt;
+	padding: 0 10px 0 10px;
+}
+.CV1 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+}
+.CV2 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+	top: 70px;
+}
+.CV3 {
+	height: 185px;
+	width: auto;
+	left: 0px;
+	top: 77px;
+}
+#services {
+	height: 660px;
+	width: auto;
+	background-color: hsla(0, 0%, 100%, 55%);
+}
+#container3 {
+	height: 650px;
+	width: auto;
+	position: relative;
+	left: 0px;
+}
+.servicios a {
+	width: auto;
+}
+#AT {
+	background-image:  url(Imágenes/transito_c.jpg);
+	background-size: cover;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 12%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 370px;
+	position: relative;
+	top: 0;
+	left: 3%;
+}
+#maps {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 5px;
+	left: 10%;
+	background-size: contain;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+} 
+#email {
+	left: 8%;
+}	                   
+}/*fin 2<tablet*/
+@media all and (min-width: 441px) and (max-width: 475px) {
+header, section, footer {
+	width: auto;
+}
+ul .horizontal{
+	position: relative;
+	left: 1%;
+}
+.arriba {
+	width: 100px;
+	font-size: 14pt;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+}	
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: auto;
+	background-image: url(Imágenes/background_b.jpg);
+}	
+#banner_txt {
+	height: 350px;
+	width: auto;
+	top: 60px;
+	left: 0px;
+}
+#bienvenida {
+	font-size: 19pt;
+	left: 1%;
+	width: 420px;
+	height: 100px;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 30%;
+}
+#scroll {
+	width: 170px;
+	top: 5px;
+	left: 33%;
+}
+#we {
+	background-image: url(Imágenes/justice.jpg);
+	background-size: cover;
+	height: 770px;	
+}
+#contenedor2 {
+	height: 760px;
+	width: auto;
+	left: 0px;
+	box-sizing: content-box;
+	padding: 0 5px 0 5px;
+}
+#estudio {
+	width: 250px;
+	height: 65px; 
+	top: 25px;
+	left: 22%;
+}
+.titulo_estudio {
+	font-size: 30pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 3px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+}
+.curriculum {
+	font-size: 12.5pt;
+	padding: 0 10px 0 10px;
+}
+.CV1 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+}
+.CV2 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+	top: 70px;
+}
+.CV3 {
+	height: 200px;
+	width: auto;
+	left: 0px;
+	top: 77px;
+}
+#services {
+	height: 660px;
+	width: auto;
+	background-color: #969386;
+}
+#container3 {
+	height: 650px;
+	width: auto;
+	position: relative;
+	left: 0px;
+}
+.servicios a {
+	width: auto;
+}
+#AT {
+	background-image:  url(Imágenes/transito_c.jpg);
+	background-size: cover;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 12%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 3%;
+}
+#maps {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 5px;
+	left: 5%;
+	background-size: contain;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#email {
+	width: 400px;
+	height: 300px;
+	left: 0;
+}   
+}/*fin 3<tablet*/
+@media all and (min-width: 424.98px) and (max-width: 440px) {
+
+header, section, footer {
+	width: auto;
+}
+ul .horizontal{
+	position: relative;
+	left: 16px;	
+}
+.arriba {
+	font-size: 12pt;
+	width: 90px;
+}	
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: 570px;
+	background-image: url(Imágenes/background_c.jpg);
+}
+#banner_txt {
+	height: 330px;
+	width: 400px;
+	position: relative;
+	top: 90px;
+	left: 4px;
+}
+#bienvenida {
+	font-size: 19pt;
+	left: 10px;
+	width: 380px;
+	height: 100px;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 107px;
+}
+#scroll {
+	width: 165px;
+	top: 15px;
+	left: 130px;
+}
+#we {
+	background-image: url(Imágenes/justice_b.jpg);
+	background-size: cover;
+	height: 790px;	
+}
+#contenedor2 {
+	height: 760px;
+	width: 390px;
+	left: 10px;
+}
+#estudio {
+	width: 250px;
+	height: 65px; 
+	top: 25px;
+	left: 70px;
+}
+.titulo_estudio {
+	font-size: 30pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 2px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+	font-size: 16pt;
+}
+.curriculum {
+	font-size: 11pt;
+	padding: 0 12px 0 12px;
+}
+.CV1 {
+	height: 200px;
+	width: 370px;
+	left: 10px;
+}
+.CV2 {
+	height: 200px;
+	width: 370px;
+	left: 10px;
+	top: 70px;
+}	
+.CV3 {
+	height: 200px;
+	width: 370px;
+	left: 10px;
+	top: 77px;
+}
+#services {
+	height: 498px;
+}
+#container3 {
+	height: 495px;
+	width: auto;
+	position: relative;
+	top: 2px;
+	background-color: #000000;
+}
+.servicios {
+	left: 0px;
+	top: 0;
+}
+.servicios a {
+	width: auto;
+	height: 165px;
+	line-height: 165px;
+	font-size: 22pt;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#laboral {
+	background-size: cover;
+}
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 12%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 3%;
+}
+#maps {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 5px;
+	left: 5%;
+	background-size: contain;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#email {
+	width: 380px;
+	height: 300px;
+	left: 0;
+	padding: 2px;
+}  
+}/*fin 4<Tablet*/
+@media all and (min-width: 424px) {
+	.arriba:hover {
+	background: -webkit-linear-gradient(0deg, #edd485, #ccb056);
+	color: #ffffff;
+	text-decoration: none;
+}
+} 
+@media all and (min-width: 391px) and (max-width: 424px) {
+	header, section, footer {
+	width: auto;
+}
+header {
+	height: 60px;
+	background-color: #000000;
+}
+ul .horizontal{
+	position: relative;
+	left: 0px;	
+}
+.arriba {
+	font-size: 12pt;
+	width: 80px;
+	padding: 0;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+	height: 40px;
+	line-height: 60px;
+}
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: 540px;
+	background-image: url(Imágenes/iustitia2.jpg);
+	background-size: 100% 100%;
+}
+#banner_txt {
+	height: 370px;
+	width: auto;
+	top: 20px;
+	left: 0;
+	box-sizing: content-box;
+	padding: 0 3px 0 3px;
+}
+#bienvenida {
+	font-size: 17pt;
+	letter-spacing: 4px;
+	left: 0;
+	width: auto;
+	height: auto;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 25%;
+}
+#scroll {
+	width: 165px;
+	top: 0;
+	left: 30%;
+}
+#we {
+	background-image: url(Imágenes/justice_c.jpg);
+	background-size: cover;
+	height: 770px;	
+}
+#contenedor2 {
+	height: 730px;
+	width: auto;
+	left: 0;
+	box-sizing: content-box;
+	padding: 0 3px 0 3px;
+}
+#estudio {
+	width: 210px;
+	height: 65px; 
+	top: 20px;
+	left: 24%;
+}
+.titulo_estudio {
+	font-size: 26pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 2px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+	font-size: 16pt;
+}
+.curriculum {
+	font-size: 11pt;
+	padding: 0 8px 0 8px;
+}
+.CV1 {
+	height: 190px;
+	width: auto;
+	left: 0;
+}
+.CV2 {
+	height: 190px;
+	width: auto;
+	left: 0;
+	top: 70px;
+}	
+.CV3 {
+	height: 190px;
+	width: auto;
+	left: 0;
+	top: 77px;
+}
+#services {
+	height: 498px;
+}
+#container3 {
+	height: 495px;
+	width: auto;
+	position: relative;
+	top: 2px;
+	background-color: #000000;
+}
+.servicios {
+	left: 0px;
+	top: 0;
+}
+.servicios a {
+	width: auto;
+	height: 165px;
+	line-height: 165px;
+	font-size: 22pt;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#laboral {
+	background-size: cover;
+}
+#AT {
+	background-image:  url(Imágenes/transito_c.jpg);
+	background-size: cover;
+} 
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 12%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#maps {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 5px;
+	left: 2%;
+	background-size: contain;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#direct {
+	padding: 10px;
+}
+#email {
+	width: 360px;
+	height: 300px;
+	left: 5px;
+	padding: 2px;
+}  
+}
+@media all and (min-width: 375px) and (max-width: 390px) {
+
+header, section, footer {
+	width: auto;
+}
+header {
+	height: 60px;
+	background-color: #000000;
+}
+ul .horizontal{
+	position: relative;
+	left: 0px;	
+}
+.arriba {
+	font-size: 12pt;
+	width: 80px;
+	padding: 0;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+	height: 40px;
+	line-height: 60px;
+}
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: 540px;
+	background-image: url(Imágenes/iustitia2.jpg);
+	background-size: 100% 100%;
+}
+#banner_txt {
+	height: 370px;
+	width: auto;
+	top: 20px;
+	left: 0;
+}
+#bienvenida {
+	font-size: 17pt;
+	letter-spacing: 4px;
+	left: 0;
+	width: auto;
+	height: 145px;
+	background-color: hsla(217, 40%, 68%, 35%);
+}
+#logo {
+	width: 170px;
+	left: 85px;
+}
+#scroll {
+	width: 165px;
+	top: 0;
+	left: 100px;
+}
+#we {
+	background-image: url(Imágenes/justice_c.jpg);
+	background-size: cover;
+	height: 770px;	
+}
+#contenedor2 {
+	height: 730px;
+	width: auto;
+	left: 0;
+}
+#estudio {
+	width: 210px;
+	height: 65px; 
+	top: 20px;
+	left: 75px;
+}
+.titulo_estudio {
+	font-size: 26pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 2px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+	font-size: 16pt;
+}
+.curriculum {
+	font-size: 11pt;
+	padding: 0 8px 0 8px;
+}
+.CV1 {
+	height: 185px;
+	width: 350px;
+	left: 5px;
+}
+.CV2 {
+	height: 185px;
+	width: 350px;
+	left: 5px;
+	top: 70px;
+}	
+.CV3 {
+	height: 200px;
+	width: 350px;
+	left: 5px;
+	top: 77px;
+}
+#services {
+	height: 498px;
+}
+#container3 {
+	height: 495px;
+	width: auto;
+	position: relative;
+	top: 2px;
+	background-color: #000000;
+}
+.servicios {
+	left: 0px;
+	top: 0;
+}
+.servicios a {
+	width: auto;
+	height: 165px;
+	line-height: 165px;
+	font-size: 22pt;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#laboral {
+	background-size: cover;
+}
+#AT {
+	background-image:  url(Imágenes/transito_c.jpg);
+	background-size: cover;
+} 
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 8%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#maps {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 5px;
+	left: 2%;
+	background-size: contain;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#direct {
+	padding: 8px;
+}
+#email {
+	width: 350px;
+	height: 300px;
+	left: 0;
+	padding: 2px;
+} 
+}
+@media all and (min-width: 319px) and (max-width: 374.98px) {
+header, section, footer {
+	width: auto;
+}
+header {
+	height: 60px;
+}
+ul .horizontal{
+	position: relative;
+	left: 4%;	
+}
+.arriba {
+	font-family: 'Merriweather-Regular';
+	font-size: 11pt;
+	width: 65px;
+	padding: 0;
+	-webkit-border-radius: none;
+	-webkit-box-shadow: none;
+	height: 40px;
+	line-height: 65px;
+}	
+#logo_small {
+	display: none;
+}
+#botonera_fija {
+	width: auto;
+	float: none;
+}
+#home {
+	height: 540px;
+	background-image: url(Imágenes/iustitia2.jpg);
+	background-size: 100% 100%;
+}
+#banner_txt {
+	height: 370px;
+	width: auto;
+	top: 30px;
+	left: 0;
+	box-sizing: content-box;
+	padding: 0 5px 0 5px;
+}
+#bienvenida {
+	font-size: 17pt;
+	letter-spacing: 4px;
+	left: 0;
+	width: auto;
+	height: 145px;
+	background-color: hsla(217, 40%, 68%, 50%);
+}
+#logo {
+	width: 170px;
+	left: 23%;
+	border-width: 5px;
+}
+#scroll {
+	width: 165px;
+	top: 0;
+	left: 27%;
+}
+#we {
+	background-image: url(Imágenes/justice_c.jpg);
+	background-size: cover;
+	height: 820px;	
+}
+#contenedor2 {
+	height: 800px;
+	width: auto;
+	left: 0;
+	box-sizing: content-box;
+	padding: 0 4px 0 4px;
+}
+#estudio {
+	width: 210px;
+	height: 65px;
+	top: 20px;
+	left: 21%;
+}
+.titulo_estudio {
+	font-size: 26pt;
+}
+#contenedor2 article {
+	display: block;
+	border-width: 2px;
+}
+.name_cv {
+	text-decoration: underline;
+	margin-bottom: 0;
+	font-size: 16pt;
+}
+.curriculum {
+	font-size: 11pt;
+	padding: 0 8px 0 8px;
+}
+.CV1 {
+	height: 215px;
+	width: 300px;
+	left: 4%;
+}
+.CV2 {
+	height: 215px;
+	width: 300px;
+	left: 4%;
+	top: 70px;
+}	
+.CV3 {
+	height: 215px;
+	width: 300px;
+	left: 4%;
+	top: 77px;
+}
+#services {
+	height: 498px;
+}
+#container3 {
+	height: 495px;
+	width: auto;
+	position: relative;
+	top: 2px;
+	background-color: #000000;
+}
+.servicios {
+	left: 0px;
+	top: 0;
+}
+.servicios a {
+	width: auto;
+	height: 165px;
+	line-height: 165px;
+	font-size: 20pt;
+	text-shadow:3px 0px 15px #ffffff;
+}
+.servicios a:hover {
+	-webkit-animation: none;
+}
+#laboral {
+	background-size: cover;
+}
+#AT {
+	background-image:  url(Imágenes/transito_c.jpg);
+	background-size: cover;
+}
+#AP {
+	background-image:  url(Imágenes/advice1b.jpg);
+	background-size: cover;
+} 
+#contact { 
+	height: auto;
+	box-sizing: border-box;
+	padding: 25px;
+}
+#tarjeta_ct {
+	width: auto;
+	padding: 20px 0 0 8%;
+}
+#tarjeta_ct div, article {
+	display: block; 
+}
+#contact_blank {
+	width: 300px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+#maps {
+	width: 250px;
+	height: 250px;
+	position: relative;
+	top: 5px;
+	left: 2%;
+	background-size: contain;
+}	
+#datos_ct {
+	width: auto;
+	top: 10px;
+	padding-right: 120px;
+	box-sizing: border-box;
+	vertical-align: none;
+}
+#direct {
+	height: 340px;
+	padding: 3px;
+}
+#email {
+	width: 335px;
+	left: 0;
+	padding: 2px;
+}  
+}	
